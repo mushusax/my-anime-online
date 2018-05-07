@@ -1,0 +1,11 @@
+{
+  "name": "my-anime-online",
+  "version": "1.0.0",
+  "description": "Anime cataloger",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mushusax",
+  "license": "ISC"
+}
