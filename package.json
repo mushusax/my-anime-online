@@ -2,13 +2,22 @@
   "name": "my-anime-online",
   "version": "1.0.0",
   "description": "Anime cataloger",
-  "main": "app.js",
+  "main": "./src/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./src/server.js"
   },
   "author": "mushusax",
   "license": "ISC",
   "dependencies": {
-    "bootstrap": "^4.1.1"
+    "ejs": "^2.6.1",
+    "graphql-request": "^1.6.0",
+    "koa": "^2.5.1",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-views-render": "0.0.1",
+    "node-fetch": "^2.1.2",
+    "path": "^0.12.7",
+    "request": "^2.85.0"
   }
 }
